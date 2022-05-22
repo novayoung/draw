@@ -1,1 +1,39 @@
-<mxfile host="app.diagrams.net" modified="2022-05-20T13:47:31.192Z" agent="5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" version="18.0.8" etag="zTf-phwMEvr_SRObCUbK" type="github"><diagram id="uiXNhwlux-Kof3rjLHs7">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-22T08:10:15.247Z" agent="5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="R9J1TuULfPbKbh66kzPb" version="18.0.8" type="github">
+  <diagram id="uiXNhwlux-Kof3rjLHs7" name="Page-1">
+    <mxGraphModel dx="942" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sMDR3Uv5j7hLdofMTt-9-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="sMDR3Uv5j7hLdofMTt-9-16" target="sMDR3Uv5j7hLdofMTt-9-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sMDR3Uv5j7hLdofMTt-9-18" value="获取服务&lt;br&gt;属性和状态" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sMDR3Uv5j7hLdofMTt-9-17">
+          <mxGeometry x="-0.1004" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sMDR3Uv5j7hLdofMTt-9-11" value="技术服务平台" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="212" y="390" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sMDR3Uv5j7hLdofMTt-9-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="sMDR3Uv5j7hLdofMTt-9-11" target="sMDR3Uv5j7hLdofMTt-9-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sMDR3Uv5j7hLdofMTt-9-1" value="Eureka" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="250" width="194" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sMDR3Uv5j7hLdofMTt-9-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sMDR3Uv5j7hLdofMTt-9-2" target="sMDR3Uv5j7hLdofMTt-9-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sMDR3Uv5j7hLdofMTt-9-2" value="业务服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="120" width="214" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sMDR3Uv5j7hLdofMTt-9-15" value="Framework提供接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="160" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sMDR3Uv5j7hLdofMTt-9-16" value="集成SpringBootAdmin" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="380" width="148" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
