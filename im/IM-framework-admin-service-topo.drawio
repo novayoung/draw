@@ -1,1 +1,49 @@
-<mxfile host="app.diagrams.net" modified="2022-05-25T02:29:01.284Z" agent="5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" version="18.1.1" etag="xZ8A_XJDulDSKWFW48uv" type="github"><diagram id="TXAaZlh6UaU68Wor_zhq">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-25T02:42:12.373Z" agent="5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="YpCBZEL64owz4K8HZdFw" version="18.1.1" type="github">
+  <diagram id="TXAaZlh6UaU68Wor_zhq" name="Page-1">
+    <mxGraphModel dx="942" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="e3Zxd4bvWFJk52f1fWkb-1" value="服务拓扑" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;" vertex="1" parent="1">
+          <mxGeometry x="120" y="60" width="685" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="e3Zxd4bvWFJk52f1fWkb-2" value="终端用户" style="swimlane;startSize=20;" vertex="1" parent="e3Zxd4bvWFJk52f1fWkb-1">
+          <mxGeometry y="20" width="160" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="e3Zxd4bvWFJk52f1fWkb-9" value="查看服务拓扑" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="e3Zxd4bvWFJk52f1fWkb-2">
+          <mxGeometry x="20" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e3Zxd4bvWFJk52f1fWkb-3" value="技术服务平台" style="swimlane;startSize=20;" vertex="1" parent="e3Zxd4bvWFJk52f1fWkb-1">
+          <mxGeometry x="160" y="20" width="180" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="e3Zxd4bvWFJk52f1fWkb-10" value="发起查询请求" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="e3Zxd4bvWFJk52f1fWkb-3">
+          <mxGeometry x="30" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e3Zxd4bvWFJk52f1fWkb-4" value="业务服务" style="swimlane;startSize=20;" vertex="1" parent="e3Zxd4bvWFJk52f1fWkb-1">
+          <mxGeometry x="340" y="20" width="170" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="e3Zxd4bvWFJk52f1fWkb-6" value="服务启动时上报Feign模块调用信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="e3Zxd4bvWFJk52f1fWkb-4">
+          <mxGeometry x="25" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e3Zxd4bvWFJk52f1fWkb-5" value="模块上报服务" style="swimlane;startSize=20;" vertex="1" parent="e3Zxd4bvWFJk52f1fWkb-1">
+          <mxGeometry x="510" y="20" width="175" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="e3Zxd4bvWFJk52f1fWkb-7" value="保存调用关系" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="e3Zxd4bvWFJk52f1fWkb-5">
+          <mxGeometry x="27.5" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e3Zxd4bvWFJk52f1fWkb-12" value="返回服务间调用关系" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="e3Zxd4bvWFJk52f1fWkb-5">
+          <mxGeometry x="27.5" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e3Zxd4bvWFJk52f1fWkb-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="e3Zxd4bvWFJk52f1fWkb-1" source="e3Zxd4bvWFJk52f1fWkb-6" target="e3Zxd4bvWFJk52f1fWkb-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3Zxd4bvWFJk52f1fWkb-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="e3Zxd4bvWFJk52f1fWkb-1" source="e3Zxd4bvWFJk52f1fWkb-9" target="e3Zxd4bvWFJk52f1fWkb-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3Zxd4bvWFJk52f1fWkb-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="e3Zxd4bvWFJk52f1fWkb-1" source="e3Zxd4bvWFJk52f1fWkb-10" target="e3Zxd4bvWFJk52f1fWkb-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
