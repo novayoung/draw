@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-24T08:38:33.477Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="oynbjw5gTJ-YgSPZq8c0" version="20.2.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-08-24T08:51:37.119Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="4hwEgJ87rJqT9EnB7BBR" version="20.2.3" type="github" pages="2">
   <diagram id="wcmLKQqVZ_4nZNDQ9Jtv" name="第 1 页">
     <mxGraphModel dx="1038" dy="523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -120,7 +120,7 @@
         <mxCell id="rhdI89U1xOluusiLKp7O-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;strokeColor=#000000;" edge="1" parent="1" source="rhdI89U1xOluusiLKp7O-20" target="rhdI89U1xOluusiLKp7O-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rhdI89U1xOluusiLKp7O-24" value="推送规则" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="rhdI89U1xOluusiLKp7O-22">
+        <mxCell id="rhdI89U1xOluusiLKp7O-24" value="流量路由规则" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="rhdI89U1xOluusiLKp7O-22">
           <mxGeometry x="-0.0521" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -132,7 +132,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="rhdI89U1xOluusiLKp7O-29" value="泳道调用权限配置" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="rhdI89U1xOluusiLKp7O-28">
+        <mxCell id="rhdI89U1xOluusiLKp7O-29" value="流量权限规则" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="rhdI89U1xOluusiLKp7O-28">
           <mxGeometry x="-0.2936" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
