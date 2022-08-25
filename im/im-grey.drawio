@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-25T08:03:03.085Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="Mzu8OIxqs_V1kukyF7rD" version="20.2.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-08-25T08:04:03.222Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="WdXALifLnJxZErhoexDm" version="20.2.7" type="github" pages="2">
   <diagram id="wcmLKQqVZ_4nZNDQ9Jtv" name="第 1 页">
     <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -108,7 +108,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="rhdI89U1xOluusiLKp7O-1" value="ApiSix" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;" parent="1" vertex="1">
+        <mxCell id="rhdI89U1xOluusiLKp7O-1" value="ApiSix" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="295" y="70" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="rhdI89U1xOluusiLKp7O-5" value="业务网关" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CC6600;strokeColor=none;" parent="1" vertex="1">
@@ -123,7 +123,7 @@
         <mxCell id="rhdI89U1xOluusiLKp7O-10" value="所有线上服务&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FFFFFF;fillColor=#009900;strokeColor=none;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="485" y="310" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rhdI89U1xOluusiLKp7O-11" value="Eureka集群" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;" parent="1" vertex="1">
+        <mxCell id="rhdI89U1xOluusiLKp7O-11" value="Eureka集群" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="60" y="500" width="590" height="50" as="geometry" />
         </mxCell>
         <mxCell id="rhdI89U1xOluusiLKp7O-15" value="业务网关" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CC6600;strokeColor=none;" parent="1" vertex="1">
@@ -153,7 +153,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rhdI89U1xOluusiLKp7O-20" value="技术服务平台" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;" parent="1" vertex="1">
+        <mxCell id="rhdI89U1xOluusiLKp7O-20" value="技术服务平台" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="640" y="70" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="xnE4DSDf1Bw6B7TrPTZQ-9" value="版本: imapp-v2022xx1" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.oval_callout;fontColor=#FFFFFF;fillColor=#CC6600;" vertex="1" parent="1">
