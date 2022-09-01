@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2022-09-01T06:00:55.381Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="mfMt87BEh8_2usFR9CLp" version="20.2.7" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-09-01T06:02:44.680Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="diPp4NTarxfzo7NP0Rse" version="20.2.7" type="github" pages="5">
   <diagram id="wcmLKQqVZ_4nZNDQ9Jtv" name="第 1 页">
     <mxGraphModel dx="1038" dy="523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="OSZ8q49b6BW-0BtTaGKs-11" value="新版本泳道" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;verticalAlign=bottom;" parent="1" vertex="1">
-          <mxGeometry x="110" y="200" width="210" height="490" as="geometry" />
+        <mxCell id="OSZ8q49b6BW-0BtTaGKs-11" value="版本1 泳道" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;verticalAlign=bottom;" parent="1" vertex="1">
+          <mxGeometry x="110" y="200" width="210" height="580" as="geometry" />
         </mxCell>
         <mxCell id="OSZ8q49b6BW-0BtTaGKs-12" value="生产泳道" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;verticalAlign=bottom;" parent="1" vertex="1">
-          <mxGeometry x="390" y="200" width="210" height="490" as="geometry" />
+          <mxGeometry x="390" y="200" width="210" height="580" as="geometry" />
         </mxCell>
         <mxCell id="OSZ8q49b6BW-0BtTaGKs-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeColor=#000000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="OSZ8q49b6BW-0BtTaGKs-2" target="OSZ8q49b6BW-0BtTaGKs-8" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -45,13 +45,13 @@
         <mxCell id="I7rxvZdiFZnmUZae4NFm-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="OSZ8q49b6BW-0BtTaGKs-7" target="I7rxvZdiFZnmUZae4NFm-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OSZ8q49b6BW-0BtTaGKs-7" value="服务 A&lt;br&gt;（新版本）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="OSZ8q49b6BW-0BtTaGKs-7" value="服务 A&lt;br&gt;（版本1）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="155" y="350" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OSZ8q49b6BW-0BtTaGKs-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="OSZ8q49b6BW-0BtTaGKs-8" target="OSZ8q49b6BW-0BtTaGKs-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OSZ8q49b6BW-0BtTaGKs-8" value="泳道入口服务&lt;br&gt;（新版本）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="OSZ8q49b6BW-0BtTaGKs-8" value="泳道入口服务&lt;br&gt;（版本1）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="155" y="250" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="I7rxvZdiFZnmUZae4NFm-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="OSZ8q49b6BW-0BtTaGKs-9" target="I7rxvZdiFZnmUZae4NFm-5" edge="1">
@@ -65,14 +65,20 @@
             <mxPoint x="105" y="260" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="E5bOZueb-M4jvKKGDzZh-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="I7rxvZdiFZnmUZae4NFm-5" target="E5bOZueb-M4jvKKGDzZh-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="I7rxvZdiFZnmUZae4NFm-5" value="服务 C&lt;br&gt;（生产版本）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="435" y="580" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="I7rxvZdiFZnmUZae4NFm-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="I7rxvZdiFZnmUZae4NFm-7" target="I7rxvZdiFZnmUZae4NFm-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="I7rxvZdiFZnmUZae4NFm-7" value="服务 B&lt;br&gt;（新版本）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="I7rxvZdiFZnmUZae4NFm-7" value="服务 B&lt;br&gt;（版本1）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="155" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E5bOZueb-M4jvKKGDzZh-1" value="服务 D&lt;br&gt;（生产版本）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="435" y="690" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
