@@ -1,1 +1,33 @@
-<mxfile host="app.diagrams.net" modified="2023-04-10T03:09:47.953Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" version="21.0.6" etag="CZ3kXqXD013BGxfLbh1Y" type="github"><diagram name="第 1 页" id="l8s93q0pbMGNkpM9IvlP">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-04-10T03:22:31.182Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="UncUC2lR5ze0gC4rWnC-" version="21.0.6" type="github">
+  <diagram name="第 1 页" id="l8s93q0pbMGNkpM9IvlP">
+    <mxGraphModel dx="1050" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GCuhsYm6QzGAExh4Oya1-6" value="Nacos" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="470" y="150" width="240" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="GCuhsYm6QzGAExh4Oya1-5" value="服务内部" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="120" y="150" width="260" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="GCuhsYm6QzGAExh4Oya1-4" value="2.调用解密接口" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GCuhsYm6QzGAExh4Oya1-2" target="GCuhsYm6QzGAExh4Oya1-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GCuhsYm6QzGAExh4Oya1-12" value="1. 远程加载实现类" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GCuhsYm6QzGAExh4Oya1-2" target="GCuhsYm6QzGAExh4Oya1-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GCuhsYm6QzGAExh4Oya1-2" value="Framework" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GCuhsYm6QzGAExh4Oya1-3" value="解密&lt;br&gt;接口类" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GCuhsYm6QzGAExh4Oya1-7" value="解密&lt;br&gt;实现类" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
