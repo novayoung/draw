@@ -1,11 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2023-07-05T05:30:04.098Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="QVW7BPNgBwynw4jYSI7u" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-05T05:36:21.228Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="BI8C72mq5g6p8EAoIasJ" version="21.2.1" type="github">
   <diagram name="第 1 页" id="nn_7PzYIXxSiBrkKg_zi">
     <mxGraphModel dx="1050" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="SsdBYtxJOpID0I5rCiJZ-74" value="管理域" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;verticalAlign=top;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="510" y="20" width="270" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="SsdBYtxJOpID0I5rCiJZ-73" value="业务域" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;verticalAlign=top;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry y="20" width="490" height="480" as="geometry" />
+        </mxCell>
         <mxCell id="SsdBYtxJOpID0I5rCiJZ-25" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="30" y="60" width="440" height="40" as="geometry" />
+          <mxGeometry x="30" y="60" width="480" height="490" as="geometry" />
         </mxCell>
         <mxCell id="SsdBYtxJOpID0I5rCiJZ-23" value="Load&lt;br&gt;Balancing" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="SsdBYtxJOpID0I5rCiJZ-25">
           <mxGeometry width="440" height="40" as="geometry" />
